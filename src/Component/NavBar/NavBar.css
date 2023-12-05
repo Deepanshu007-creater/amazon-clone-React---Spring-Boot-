@@ -1,0 +1,131 @@
+.navbar_component{
+    background-color: #131921;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.navbar_logo{
+    background: url('https://ik.imagekit.io/bgxoocrfp/amazon-image/sprite_350x.png?updatedAt=1701801643072') no-repeat -9px -50px;
+	width: 98px;
+	height: 31px;
+    margin: 18px;
+}
+.navbar_location{
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    
+}
+.navbar_locationImage{
+    background: url('https://ik.imagekit.io/bgxoocrfp/amazon-image/sprite_350x.png?updatedAt=1701801643072') no-repeat -70px -305px;
+	width: 19px;
+	height: 22px;
+}
+.navbar_locationText{
+    padding-left: 5px;
+}
+.navbar_searchComp{
+    color: white;
+    display: flex;
+    margin: 8px;
+    margin-left: 22px;
+}
+.navbar_searchInput{
+    width: 640px;
+    height: 41px;
+    border: none;
+}
+.navbar_searchInput>input{
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: none;
+    text-rendering: auto;
+}
+.navbar_dropDown{
+    border: none;
+    height: 43px;
+    width: 70px;
+    /* margin: 2px; */
+    /* background-color: #D4D4D4; */
+    border-radius: 5px 0px 0px 5px;
+}
+.navbar_dropDown>select{
+    border: none;
+    background-color: #ffffff;
+    justify-content: center;
+    /* padding-top: 10px; */
+    text-decoration: none;
+    border-radius: 5px 0px 0px 5px;
+    height: 43px;
+    width: 70px;
+    font-weight: bold;
+    text-align-last: center;
+}
+.navbar_dropDown>select:hover{
+    background-color: #D4D4D4;
+}
+
+.navbar_searchIcon{
+    background: url('https://ik.imagekit.io/bgxoocrfp/amazon-image/sprite_350x.png?updatedAt=1701801643072') no-repeat -9px -289px;
+	width: 23px;
+	height: 23px;
+    margin: 11px;
+}
+.navbar_searchIconBox{
+    height: 43px;
+    width: 50px;
+    background-color: #F3A847;
+    border-radius: 0px 5px 5px 0px;
+    border: none; 
+
+}
+
+.text_box{
+    color: white;
+    text-align: center;
+    margin-left: 22px;
+    margin-top: 16px;
+    margin-right: 22px;
+}
+
+.hello_text{
+    font-size: 12px;
+    font-weight: 700px;
+    text-align: left;
+    height: 14px;
+    line-height: 14px;
+}
+
+.acc_text{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    height: 15px;
+    line-height: 15px;
+}
+.cart_icon{
+    background: url('https://ik.imagekit.io/bgxoocrfp/amazon-image/sprite_350x.png?updatedAt=1701801643072') no-repeat -217px -336px;
+	width: 43px;
+	height: 30px;
+}
+.cart{
+    display: flex;
+}
+.cart_text{
+    /* margin-left: 44px; */
+    margin-top: 14px;
+
+}
+.cart_no{
+    color: #F3A847;
+    position: absolute;
+    right: 70px;
+    top: 8px;
+}
+
