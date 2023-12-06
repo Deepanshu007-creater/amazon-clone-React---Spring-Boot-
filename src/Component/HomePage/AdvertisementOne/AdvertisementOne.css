@@ -1,0 +1,20 @@
+.advertisement_main{
+    background-color: white;
+    height: 380px;
+    width: 335px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.advertisement_header{
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: bold;
+    padding: 15px;
+}
+.advertisement_body{
+    padding-left: 15px;
+}
+.advertisement_footer{
+    padding: 15px;
+}

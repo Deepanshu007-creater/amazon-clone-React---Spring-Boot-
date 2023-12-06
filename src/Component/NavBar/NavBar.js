@@ -10,6 +10,8 @@ class NavBar extends Component {
     }
     render() {
         return (
+
+        <div>
             <div className='navbar_component'>
                 <div className='navbar_logo'></div>
                 <div className='navbar_location'>
@@ -31,7 +33,7 @@ class NavBar extends Component {
                         </select>
                     </div>
                     <div className='navbar_searchInput'>
-                        <input type='text' className='navbar_searchInput' placeholder='Enter here for'/>
+                        <input type='text' className='navbar_searchInput' placeholder='Enter here for search the products'/>
                     </div>
                     <div className='navbar_searchIconBox'>
                         <div className='navbar_searchIcon'></div>
@@ -52,7 +54,21 @@ class NavBar extends Component {
                     <div className='cart_icon'></div>
                     <div className='acc_text cart_text'>Cart</div>
                 </div>
-                </div>
+           </div>
+           
+            <div className='navbar_footer'>
+                <div className='navbar_footer_text'>All</div>
+                <div className='navbar_footer_text'>Fashion</div>
+                <div className='navbar_footer_text'>Sale</div>
+                <div className='navbar_footer_text'>Shoes</div>
+                <div className='navbar_footer_text'>Brands</div>
+                <div className='navbar_footer_text'>Prime</div>
+                <div className='navbar_footer_text'>Electronics</div>
+            </div>
+
+           </div>
+           
+            
             
         );
     }

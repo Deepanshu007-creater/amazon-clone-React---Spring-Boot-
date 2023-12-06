@@ -1,0 +1,22 @@
+.product{
+   width: 200px;
+   margin: 30px;
+}
+
+.product_image{
+    
+}
+.product_name{
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: bold !important;
+}
+.product_rating{
+    font-size: 15px;
+    color: rgba(0, 68, 255, 0.841);
+}
+.product_price{
+    color: rgba(166, 0, 0, 0.915);
+    font-size: 25px;
+    font-weight: 600;
+}

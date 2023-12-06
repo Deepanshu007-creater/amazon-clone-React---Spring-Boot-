@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './HomePage.css'
+import AdvertisementOne from './AdvertisementOne/AdvertisementOne';
+import AdvertisementFour from './AdvertisementFour/AdvertisementFour';
 
 class HomePage extends Component {
 
@@ -9,8 +11,17 @@ class HomePage extends Component {
     }
     render() {
         return (
-            <div>
-                HomePage
+            <div className='homePage'>
+                <div style={{paddingTop:"310px",display:"flex",flexWrap:'wrap'}}>
+                    <AdvertisementOne/>
+                    <AdvertisementFour/>
+                    <AdvertisementOne/>
+                    <AdvertisementOne/>
+                    <AdvertisementOne/>
+                    <AdvertisementFour/>
+                    <AdvertisementOne/>
+                    <AdvertisementOne/>
+                </div>
             </div>
         );
     }
