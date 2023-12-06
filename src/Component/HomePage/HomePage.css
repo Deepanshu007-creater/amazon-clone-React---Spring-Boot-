@@ -1,0 +1,9 @@
+.homePage{
+    background: url('https://ik.imagekit.io/bgxoocrfp/amazon-image/bigimage1.jpg?updatedAt=1701801638526');
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    /* background-color: rgb(242, 240, 240); */
+    background-color: #EAEDED;
+}

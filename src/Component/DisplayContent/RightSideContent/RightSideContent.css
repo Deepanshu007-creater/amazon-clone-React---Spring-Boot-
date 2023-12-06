@@ -1,0 +1,7 @@
+.rightSide_main{
+    height: 100%;
+    min-width: 600px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
